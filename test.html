@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample LaTeX to HTML</title>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .reference {
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Introduction</h1>
+    <p>This is a simple LaTeX example. We refer to an equation in Section <a href="#equation">Equation</a>.</p>
+    
+    <h2 id="equation">Equation</h2>
+    <p>Here is a simple equation:</p>
+    <p>\( E = mc^2 \)</p>
+
+    <h2>References</h2>
+    <p class="reference">1. Reference details would go here (from .bib file).</p>
+</body>
+</html>
